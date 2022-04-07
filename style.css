@@ -1,0 +1,10 @@
+li {
+    display: inline-block;
+    list-style-type: none;
+    text-transform: uppercase;
+    text-align: center;
+  }
+  
+  li span {
+    display: block;
+  }
