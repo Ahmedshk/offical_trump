@@ -1,10 +1,410 @@
-li {
-    display: inline-block;
-    list-style-type: none;
-    text-transform: uppercase;
+img {
+  max-width: 100%;
+}
+
+.main_header {
+  background-color: #F23A21;
+  color: #fff;
+  padding: 10px 0;
+}
+
+#countdown li {
+  display: inline-block;
+  list-style-type: none;
+  text-align: center;
+  font-size: 10px;
+  background-color: #000;
+  padding: 2px 10px;
+}
+
+#countdown li span {
+  display: block;
+  font-size: 20px;
+  font-weight: 700;
+}
+
+.container {
+  max-width: 85%;
+}
+
+.hot_line {
+  background-color: #fff;
+  color: #F23A21;
+  padding: 12px 20px;
+}
+
+.section1 {
+  background: linear-gradient(#191B1D, #30353E);
+  padding: 50px 0;
+  color: #fff;
+}
+
+.cut_price,
+.cut {
+  text-decoration: line-through;
+  color: #4B5057;
+  font-size: 23px;
+}
+
+.new_price,
+.new_price {
+  color: #F23A21;
+  font-size: 30px;
+  margin-left: 5px;
+  margin-top: 7px;
+}
+
+.new_price {
+  font-size: 23px;
+}
+
+.star_div img {
+  width: 18px;
+}
+
+.star_para {
+  margin: 0;
+  margin-top: 1px;
+  margin-left: 12px;
+  font-size: 17px;
+}
+
+.detail_para {
+  margin: 0;
+  font-size: 17px;
+  margin-left: 10px;
+  font-weight: 600;
+}
+
+
+blink {
+  -webkit-animation: 1s linear infinite condemned_blink_effect;
+  /* for Safari 4.0 - 8.0 */
+  animation: 1s linear infinite condemned_blink_effect;
+  color: #FFE266;
+}
+
+/* for Safari 4.0 - 8.0 */
+@-webkit-keyframes condemned_blink_effect {
+  0% {
+    opacity: 0.1;
+  }
+
+  50% {
+    opacity: 0.5;
+  }
+
+  100% {
+    opacity: 1;
+  }
+}
+
+@keyframes condemned_blink_effect {
+  0% {
+    opacity: 0.1;
+  }
+
+  50% {
+    opacity: 0.5;
+  }
+
+  100% {
+    opacity: 1;
+  }
+}
+
+.trump_card_head {
+  font-size: 40px;
+  text-align: center;
+}
+
+.some_imgs {
+  width: 180px;
+  margin-right: 20px;
+}
+
+.secure_images {
+  background-color: #22262C;
+  padding: 25px 0;
+}
+
+.section2 {
+  background-color: #30353E;
+  color: #fff;
+  padding-top: 20px;
+}
+
+.trump_img {
+  width: 500px;
+}
+
+
+#countdown2 li {
+  display: inline-block;
+  list-style-type: none;
+  text-align: center;
+  font-size: 20px;
+  background-color: #30353C;
+  width: 100px;
+  height: 100px;
+  border-radius: 100px;
+}
+
+#countdown2 li span {
+  display: block;
+  font-size: 31px;
+  font-weight: 700;
+  color: #FFE266;
+  padding-top: 4px;
+}
+
+.secure_desc {
+  margin-top: 30px;
+}
+
+.secure_desc h5 {
+  color: #BCC3CA;
+  margin-bottom: 15px;
+}
+
+.section3 {
+  background-color: #191B1D;
+  color: #fff;
+  padding: 50px 10px;
+}
+
+.testimonial {
+  background-color: #22262C;
+  margin-right: 20px;
+  margin-bottom: 20px;
+}
+
+.inner_box {
+  padding: 35px 0px;
+}
+
+.main_msg {
+  color: #FFE266;
+  font-weight: 700;
+  font-size: 16px;
+  margin: 0;
+}
+
+.days_ago {
+  color: #BCC3CA;
+}
+
+.plus_icon {
+  font-size: 30px;
+  color: #FFE266;
+  cursor: pointer;
+}
+
+.free_ship {
+  font-size: 22px;
+}
+
+.hide_text {
+  color: #BCC3CA;
+  border-left: 2px solid #FFE266;
+  padding-left: 25px;
+  margin-top: 25px;
+  display: none;
+}
+
+.text_desc_section {
+  border-top: 1px solid #323538;
+  padding-top: 21px;
+}
+
+.deals_head {
+  text-align: center;
+  padding: 70px 0;
+}
+
+.deals_head h5 {
+  margin: 0;
+}
+
+.btn_div {
+  width: 100%;
+  margin: 20px 0;
+}
+
+.btn_div1 {
+  width: 100%;
+  margin: 0;
+}
+
+.buy_btn {
+  width: 100%;
+  background-color: red;
+  color: #fff;
+  border: none;
+  padding: 10px 0;
+}
+
+.buy_btn2 {
+  width: 60%;
+  background-color: red;
+  color: #fff;
+  border: none;
+  padding: 17px 0;
+  margin-left: 10px;
+}
+
+.card_col {
+  border: 1px solid #ffffff59;
+  padding: 20px;
+  margin-right: 20px;
+}
+
+.card_col h4 {
+  margin: 25px 0px;
+  font-size: 25px;
+}
+
+.cut_price2 {
+  text-decoration: line-through;
+  color: #4B5057;
+  font-size: 23px;
+}
+
+.new_price2 {
+  color: #fff;
+  font-size: 30px;
+  margin-left: 5px;
+  margin-top: 7px;
+}
+
+.tag {
+  position: absolute;
+  top: -1px;
+  left: -1px;
+  display: block;
+  width: 134px;
+  height: 134px;
+  z-index: 99;
+}
+
+.tag_text {
+  font-size: 21px !important;
+  line-height: 3.5em !important;
+  letter-spacing: .2px !important;
+  color: #000 !important;
+  text-transform: uppercase !important;
+  background-position: left top !important;
+  background-repeat: no-repeat !important;
+  background-image: url(./images/tag2.svg);
+  position: relative;
+  width: 100%;
+  height: 137px;
+}
+
+.tag_text p {
+  transform: rotate(-44.72deg);
+  height: auto;
+  color: #fff;
+  margin-right: -12px;
+}
+
+.tag_text2 {
+  font-size: 21px !important;
+  line-height: 3.5em !important;
+  letter-spacing: .2px !important;
+  color: #000 !important;
+  text-transform: uppercase !important;
+  background-position: left top !important;
+  background-repeat: no-repeat !important;
+  background-image: url(./images/tag1.svg);
+  position: relative;
+  width: 100%;
+  height: 137px;
+}
+
+.tag_text2 p {
+  transform: rotate(-44.72deg);
+  height: auto;
+}
+
+
+
+
+.quantity {
+  display: flex;
+  padding: 0;
+}
+
+.quantity__minus,
+.quantity__plus {
+  width: 55px;
+  height: 58px;
+  font-size: 23px;
+  margin: 0;
+  background: #191B1D;
+  text-decoration: none !important;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.quantity__minus:hover,
+.quantity__plus:hover {
+  background: #191B1D;
+  color: #fff;
+}
+
+.quantity__minus {
+  border-radius: 3px 0 0 3px;
+}
+
+.quantity__plus {
+  border-radius: 0 3px 3px 0;
+}
+
+.quantity__input {
+  width: 45px;
+  height: 58px;
+  margin: 0;
+  padding: 0;
+  border: none;
+  text-align: center;
+  color: #fff;
+  background: #191B1D;
+}
+
+.quantity__minus:link,
+.quantity__plus:link {
+  color: #8184a1;
+}
+
+.quantity__minus:visited,
+.quantity__plus:visited {
+  color: #fff;
+}
+
+.click_btn {
+  width: 100%;
+  background: transparent;
+  border: 3px solid #ffffff38;
+  color: #fff;
+  padding: 20px;
+  border-radius: 10px;
+  margin-bottom: 20px;
+}
+
+
+@media (max-width: 767px) {
+  .trump_card_head {
+    font-size: 18px;
     text-align: center;
+    margin-top: 13px;
   }
-  
-  li span {
-    display: block;
+
+  .trump_name {
+    font-size: 19px;
+    text-align: center;
+    margin-top: 20px;
   }
+}
