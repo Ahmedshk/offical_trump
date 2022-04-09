@@ -6,6 +6,19 @@ ul {
   padding: 0;
 }
 
+a{
+  text-decoration: none !important;
+}
+
+.buy_trump{
+  color: #fff;
+  text-decoration: none;
+}
+.buy_trump:hover{
+  color: #000;
+}
+
+
 .main_header {
   background-color: #F23A21;
   color: #fff;
@@ -52,14 +65,14 @@ ul {
 }
 
 .new_price,
-.new_price {
+.new_price3 {
   color: #F23A21;
   font-size: 30px;
   margin-left: 5px;
   margin-top: 7px;
 }
 
-.new_price {
+.new_price3 {
   font-size: 23px;
 }
 
@@ -81,12 +94,28 @@ ul {
   font-weight: 600;
 }
 
+.click_btn input[type="radio"] {
+  opacity: 0.01;
+  z-index: 100;
+}
+
+.click_btn input[type="radio"]:checked+.click_btn,
+.Checked+label {
+  background: yellow;
+}
+
 
 blink {
   -webkit-animation: 1s linear infinite condemned_blink_effect;
   /* for Safari 4.0 - 8.0 */
   animation: 1s linear infinite condemned_blink_effect;
   color: #FFE266;
+}
+
+.test_img {
+  width: 50px;
+  border-radius: 50%;
+  height: 50px;
 }
 
 /* for Safari 4.0 - 8.0 */
@@ -135,6 +164,7 @@ blink {
 .section2 {
   background-color: #30353E;
   color: #fff;
+  overflow-x: hidden;
 }
 
 .trump_img {
@@ -182,6 +212,7 @@ blink {
   margin-right: 20px;
   margin-bottom: 20px;
 }
+
 .testimonial:hover {
   border: 1px solid #FFE266;
 }
@@ -351,7 +382,8 @@ blink {
   transform: rotate(-44.72deg);
   height: auto;
   color: #fff;
-  margin-right: -12px;
+  margin-right: -18px;
+  margin-left: -12px;
 }
 
 
@@ -457,7 +489,17 @@ blink {
   width: 100%;
   background: transparent;
   border: 3px solid #ffffff38;
-  color: #fff;
+  color: #000 !important;
+  padding: 20px;
+  position: relative;
+  border-radius: 10px;
+  margin-bottom: 20px;
+}
+.click_btn:hover{
+  width: 100%;
+  background-color: #fff1f3;
+  border: 3px solid #f23a21;
+  color: #000 !important;
   padding: 20px;
   position: relative;
   border-radius: 10px;
@@ -486,6 +528,15 @@ blink {
 }
 
 @media (max-width: 767px) {
+  .buy_trump{
+    font-size: 18px;
+  }
+  .new_price3{
+    font-size: 18px;
+  }
+  .cut{
+    font-size: 18px;
+  }
   .trump_card_head {
     font-size: 36px;
     text-align: center;
@@ -538,3 +589,4 @@ blink {
     margin-right: 0;
   }
 }
+
