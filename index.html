@@ -14,34 +14,21 @@
     <link rel="stylesheet" href="style.css">
     <title>Document</title>
 </head>
+<!-- oncontextmenu="return false" -->
 
-<body oncontextmenu="return false">
+<body>
 
     <div class="main_header">
         <div class="container">
             <div class="row">
-                <div class="col-md-5 d-flex align-items-center">
+                <div class="col-md-6 d-flex align-items-center">
                     <h5>Hurry up! Only 17 pieces left in stock!</h5>
 
                 </div>
-                <div class="col-md-7">
-                    <div class="container-fluid">
-                        <div class="row">
-                            <div class="col-md-6">
-                                <div id="countdown">
-                                    <ul>
-                                        <li><span id="days2"></span>Days</li>
-                                        <li><span id="hours2"></span>Hours</li>
-                                        <li><span id="minutes2"></span>Mins</li>
-                                        <li><span id="seconds2"></span>Secs</li>
-                                    </ul>
-                                </div>
-                            </div>
-                            <div class="col-md-6 d-flex align-items-center">
-                                <h5 class="hot_line">Hot line: (316) 555-0116</h5>
-                            </div>
-                        </div>
-                    </div>
+                <div class="col-md-6">
+                    <!-- <div class="d-flex align-items-center justify-content-center">
+                        <h5 class="hot_line">Hot line: (316) 555-0116</h5>
+                    </div> -->
                 </div>
             </div>
         </div>
@@ -51,13 +38,12 @@
         <div class="container">
             <div class="row">
                 <div class="col-md-7">
-                    <div>
-                        <img src="./images/trump_card.png" />
-                    </div>
-
                     <h1 class="trump_card_head">
                         <blink> 100% </blink> MADE IN USA SAVE UP TO <blink> 60% </blink>
                     </h1>
+                    <div>
+                        <img src="./images/trump_card.png" />
+                    </div>
                 </div>
                 <div class="col-md-5">
                     <h1 class="trump_name">GOLDEN TRUMP CARD</h1>
@@ -67,7 +53,7 @@
                         <h5 class="new_price">$35.00</h5>
                     </div>
 
-                    <div class="d-flex mt-3">
+                    <div class="star_main_div mt-3">
                         <div class="star_div">
                             <img src="./images/star.png" />
                             <img src="./images/star.png" />
@@ -98,23 +84,7 @@
                         </div>
                         <p class="detail_para">Ships from our warehouse in Texas within 3 business days</p>
                     </div>
-
-                    <div style="margin: 30px 0;" class="d-flex">
-                        <div>
-                            <div class="quantity">
-                                <a href="#" class="quantity__minus"><span>-</span></a>
-                                <input disabled name="quantity" type="text" class="quantity__input" value="1">
-                                <a href="#" class="quantity__plus"><span>+</span></a>
-                            </div>
-                        </div>
-
-                        <div class="btn_div1">
-                            <button class="buy_btn2">BUY IT NOW</button>
-                        </div>
-                    </div>
-
-
-                    <div>
+                    <div style="margin: 30px 0">
                         <button class="click_btn">
                             <div class="d-flex justify-content-between">
                                 <h5 class="m-0">Buy 1 Trump Golden Card</h5>
@@ -128,17 +98,33 @@
                             </div>
                         </button>
                         <button class="click_btn">
+                            <div class="family_offer">
+                                <div class="family_offer2">
+                                    <p><Strong>FAMILY OFFER</Strong></p>
+                                </div>
+                            </div>
                             <div class="d-flex justify-content-between">
                                 <h5 class="m-0">Buy 5 Trump Golden Cards</h5>
                                 <h5 class="m-0 new_price">$149.97 <span class="cut"> $500 </span></h5>
                             </div>
                         </button>
-                        <button class="click_btn">
+                        <button class="click_btn2">
+                            <div class="family_offer">
+                                <div class="family_offer2">
+                                    <p><Strong>BEST OFFER</Strong></p>
+                                </div>
+                            </div>
                             <div class="d-flex justify-content-between">
                                 <h5 class="m-0">Buy 10 Trump Golden Cards</h5>
                                 <h5 class="m-0 new_price">$279.97 <span class="cut"> $999 </span></h5>
                             </div>
                         </button>
+
+                        <div>
+                            <div class="btn_div1">
+                                <button class="buy_btn2">GRAP THE DEAL</button>
+                            </div>
+                        </div>
                     </div>
 
                 </div>
@@ -157,11 +143,10 @@
                     <img class="some_imgs" src="./images/4.svg" />
 
                 </div>
+                <div class="text-center">
+                    <img style="margin: 40px 0;" class="trump_img" src="./images/trump-img.jpg" />
+                </div>
             </div>
-        </div>
-
-        <div class="text-center">
-            <img class="trump_img" src="./images/trump-img.jpg" />
         </div>
     </div>
 
@@ -169,11 +154,11 @@
         <div class="container">
             <div class="secure_images">
                 <div class="container text-center">
-                    <h1>GET YOUR EXCLUSIVE TRUMP CARD</h1>
+                    <h1 class="exclusive_trump_card">GET YOUR EXCLUSIVE TRUMP CARD</h1>
 
                     <div id="countdown2">
                         <ul>
-                            <li><span id="days">03</span>Days</li>
+                            <!-- <li><span id="days">03</span>Days</li> -->
                             <li><span id="hours">11</span>Hours</li>
                             <li><span id="minutes">44</span>Mins</li>
                             <li><span id="seconds">55</span>Secs</li>
@@ -204,124 +189,127 @@
                 <h5>Our team carefully selected the best offers for you</h5>
             </div>
 
-            <div class="container">
+            <div style="max-width: 95%; padding: 30px 0;" class="container">
                 <div class="row justify-content-center">
-                    <div class="col-md-3 card_col">
-                        <div class="tag">
-                            <div class="tag_text2">
-                                <p><Strong>55% OFF</Strong></p>
+
+                    <div class="col-md-3">
+                        <div class="card_col">
+                            <div class="tag">
+                                <div class="tag_text2">
+                                    <p><Strong>55% OFF</Strong></p>
+                                </div>
+                            </div>
+                            <div>
+                                <img src="./images/trump_card.png" />
+                            </div>
+                            <h4 class="text-center">3x Golden Trump Cards</h4>
+
+                            <div class="d-flex">
+                                <p class="cut_price2">$100.00</p>
+                                <h5 class="new_price2">$34.99</h5>
+                            </div>
+
+                            <div class="d-flex mt-3">
+                                <div class="star_div">
+                                    <img src="./images/star.png" />
+                                    <img src="./images/star.png" />
+                                    <img src="./images/star.png" />
+                                    <img src="./images/star.png" />
+                                    <img src="./images/star.png" />
+                                </div>
+                                <p class="star_para">(Rated 4.9/5)</p>
+                            </div>
+
+                            <div class="btn_div">
+                                <button class="buy_btn">BUY IT NOW</button>
+                            </div>
+
+                            <div class="d-flex justify-content-between">
+                                <p>Sold: <span> 66090 </span></p>
+                                <P>Available: <span class="avail_num"> 17 </span></P>
                             </div>
                         </div>
-                        <div>
-                            <img src="./images/trump_card.png" />
-                        </div>
-                        <h4 class="text-center">3x Golden Trump Cards</h4>
-
-                        <div class="d-flex">
-                            <p class="cut_price2">$100.00</p>
-                            <h5 class="new_price2">$34.99</h5>
-                        </div>
-
-                        <div class="d-flex mt-3">
-                            <div class="star_div">
-                                <img src="./images/star.png" />
-                                <img src="./images/star.png" />
-                                <img src="./images/star.png" />
-                                <img src="./images/star.png" />
-                                <img src="./images/star.png" />
-                            </div>
-                            <p class="star_para">(Rated 4.9/5)</p>
-                        </div>
-
-                        <div class="btn_div">
-                            <button class="buy_btn">BUY IT NOW</button>
-                        </div>
-
-                        <div class="d-flex justify-content-between">
-                            <p>Sold: <span> 66090 </span></p>
-                            <P>Available: <span> 17 </span></P>
-                        </div>
-
-
-                    </div>
-                    <div class="col-md-3 card_col">
-                        <div class="tag">
-                            <div class="tag_text">
-                                <p><Strong>BEST VALUE</Strong></p>
-                            </div>
-                        </div>
-                        <div>
-                            <img src="./images/trump_card.png" />
-                        </div>
-                        <h4 class="text-center">3x Golden Trump Cards</h4>
-
-                        <div class="d-flex">
-                            <p class="cut_price2">$100.00</p>
-                            <h5 class="new_price2">$34.99</h5>
-                        </div>
-
-                        <div class="d-flex mt-3">
-                            <div class="star_div">
-                                <img src="./images/star.png" />
-                                <img src="./images/star.png" />
-                                <img src="./images/star.png" />
-                                <img src="./images/star.png" />
-                                <img src="./images/star.png" />
-                            </div>
-                            <p class="star_para">(Rated 4.9/5)</p>
-                        </div>
-                        <div style="margin: 25px 0;">
-                            <h5><img src="./images/gift.svg" /> Best value ($24.47 each)</h5>
-                        </div>
-
-                        <div class="btn_div">
-                            <button class="buy_btn">BUY IT NOW</button>
-                        </div>
-
-                        <div class="d-flex justify-content-between">
-                            <p>Sold: <span> 66090 </span></p>
-                            <P>Available: <span> 17 </span></P>
-                        </div>
-
-
                     </div>
 
-                    <div class="col-md-3 card_col">
-                        <div class="tag">
-                            <div class="tag_text2">
-                                <p><Strong>65% OFF</Strong></p>
+                    <div class="col-md-3">
+                        <div class="card_col_center">
+                            <div class="tag">
+                                <div class="tag_text">
+                                    <p><Strong>BEST VALUE</Strong></p>
+                                </div>
+                            </div>
+                            <div>
+                                <img src="./images/trump_card.png" />
+                            </div>
+                            <h4 class="text-center">3x Golden Trump Cards</h4>
+
+                            <div class="d-flex">
+                                <p class="cut_price2">$100.00</p>
+                                <h5 class="new_price2">$34.99</h5>
+                            </div>
+
+                            <div class="d-flex mt-3">
+                                <div class="star_div">
+                                    <img src="./images/star.png" />
+                                    <img src="./images/star.png" />
+                                    <img src="./images/star.png" />
+                                    <img src="./images/star.png" />
+                                    <img src="./images/star.png" />
+                                </div>
+                                <p class="star_para">(Rated 4.9/5)</p>
+                            </div>
+                            <div style="margin: 25px 0;">
+                                <h5><img src="./images/gift.svg" /> Best value ($24.47 each)</h5>
+                            </div>
+
+                            <div class="btn_div">
+                                <button class="buy_btn">BUY IT NOW</button>
+                            </div>
+
+                            <div class="d-flex justify-content-between">
+                                <p>Sold: <span> 66090 </span></p>
+                                <P>Available: <span class="avail_num"> 17 </span></P>
                             </div>
                         </div>
-                        <div>
-                            <img src="./images/trump_card.png" />
-                        </div>
-                        <h4 class="text-center">3x Golden Trump Cards</h4>
+                    </div>
 
-                        <div class="d-flex">
-                            <p class="cut_price2">$100.00</p>
-                            <h5 class="new_price2">$34.99</h5>
-                        </div>
-
-                        <div class="d-flex mt-3">
-                            <div class="star_div">
-                                <img src="./images/star.png" />
-                                <img src="./images/star.png" />
-                                <img src="./images/star.png" />
-                                <img src="./images/star.png" />
-                                <img src="./images/star.png" />
+                    <div class="col-md-3">
+                        <div class="card_col">
+                            <div class="tag">
+                                <div class="tag_text2">
+                                    <p><Strong>65% OFF</Strong></p>
+                                </div>
                             </div>
-                            <p class="star_para">(Rated 4.9/5)</p>
-                        </div>
+                            <div>
+                                <img src="./images/trump_card.png" />
+                            </div>
+                            <h4 class="text-center">3x Golden Trump Cards</h4>
 
-                        <div class="btn_div">
-                            <button class="buy_btn">BUY IT NOW</button>
-                        </div>
+                            <div class="d-flex">
+                                <p class="cut_price2">$100.00</p>
+                                <h5 class="new_price2">$34.99</h5>
+                            </div>
 
-                        <div class="d-flex justify-content-between">
-                            <p>Sold: <span> 66090 </span></p>
-                            <P>Available: <span> 17 </span></P>
-                        </div>
+                            <div class="d-flex mt-3">
+                                <div class="star_div">
+                                    <img src="./images/star.png" />
+                                    <img src="./images/star.png" />
+                                    <img src="./images/star.png" />
+                                    <img src="./images/star.png" />
+                                    <img src="./images/star.png" />
+                                </div>
+                                <p class="star_para">(Rated 4.9/5)</p>
+                            </div>
 
+                            <div class="btn_div">
+                                <button class="buy_btn">BUY IT NOW</button>
+                            </div>
+
+                            <div class="d-flex justify-content-between">
+                                <p>Sold: <span> 66090 </span></p>
+                                <P>Available: <span class="avail_num"> 17 </span></P>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -556,8 +544,8 @@
                     const now = new Date().getTime(),
                         distance = countDown - now;
 
-                    document.getElementById("days").innerText = Math.floor(distance / (day)),
-                        document.getElementById("hours").innerText = Math.floor((distance % (day)) / (hour)),
+                    // document.getElementById("days").innerText = Math.floor(distance / (day)),
+                    document.getElementById("hours").innerText = Math.floor((distance / (hour))),
                         document.getElementById("minutes").innerText = Math.floor((distance % (hour)) / (minute)),
                         document.getElementById("seconds").innerText = Math.floor((distance % (minute)) / second);
                 }, 0)
