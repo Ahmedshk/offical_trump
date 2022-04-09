@@ -11,11 +11,11 @@ a{
 }
 
 .buy_trump{
-  color: #000;
-  text-decoration: none;
+  color: #000 !important;
 }
+
 .buy_trump:hover{
-  color: #000;
+  color: #000 !important;
 }
 
 
