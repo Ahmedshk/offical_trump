@@ -11,12 +11,9 @@ a{
 }
 
 .buy_trump{
-  color: #000 !important;
+  color: #fff !important;
 }
 
-.buy_trump:hover{
-  color: #000 !important;
-}
 
 
 .main_header {
@@ -488,7 +485,7 @@ blink {
 .click_btn {
   width: 100%;
   background: transparent;
-  border: 3px solid #ffffff38;
+  border: 2px solid #ffffff38;
   color: #000 !important;
   padding: 20px;
   position: relative;
@@ -497,8 +494,8 @@ blink {
 }
 .click_btn:hover{
   width: 100%;
-  background-color: #fff1f3;
-  border: 3px solid #f23a21;
+  background-color: #1c1f24;
+  border: 2px solid #FFE266;
   color: #000 !important;
   padding: 20px;
   position: relative;
