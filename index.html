@@ -15,7 +15,6 @@
     <title>Document</title>
 </head>
 
-
 <body oncontextmenu="return false">
 
     <div class="main_header">
@@ -41,8 +40,8 @@
                     <h1 class="trump_card_head">
                         <blink> 100% </blink> MADE IN USA SAVE UP TO <blink> 60% </blink>
                     </h1>
-                    <div>
-                        <img src="./images/trump_card.png" />
+                    <div class="text-center">
+                        <img style="width: 550px;" src="./images/trump_card.png" />
                     </div>
                 </div>
                 <div class="col-md-5">
@@ -84,7 +83,10 @@
                         </div>
                         <p class="detail_para">Ships from our warehouse in Texas within 3 business days</p>
                     </div>
-                    <div style="margin: 30px 0">
+                    <div class="mt-5">
+                        <h5 class="m-0 grab_tour">GRAB THE TOUR </h5>
+                    </div>
+                    <div style="margin: 15px 0 30px 0">
                             <!-- <button class=""> -->
                                 <!-- <div> -->
                                     <a target="_blank" href="https://google.com" style="color: #000;" class="click_btn d-flex justify-content-between">
@@ -123,6 +125,15 @@
                                 <h5 class="m-0 new_price3">$279.97 <span class="cut"> $999 </span></h5>
                             </a>
                         </button>
+
+
+                        <div class="text-center">
+                            <img style="width: 80px; margin-bottom: 5px;" src="./images/visa.webp" />
+                            <img style="width: 80px; margin-bottom: 5px;" src="./images/express.webp" />
+                            <img style="width: 80px; margin-bottom: 5px;" src="./images/master_card.webp" />
+                            <img style="width: 80px; margin-bottom: 5px;" src="./images/apple_pay.webp" />
+                            <img style="width: 80px; margin-bottom: 5px;" src="./images/google_pay.webp" />
+                        </div>
                     </div>
 
                 </div>
@@ -169,7 +180,7 @@
                             bought anywhere else</h5>
                         <h5><img style="margin-bottom: 4px;" src="./images/dot.png" /> Excellent gift items... any real
                             patriot would love
-                            this coin!</h5>
+                            this card!</h5>
                         <h5><img style="margin-bottom: 4px;" src="./images/dot.png" /> SIZE - real-life credit card,
                             made to impress</h5>
                         <h5><img style="margin-bottom: 4px;" src="./images/dot.png" /> 74 million Americans love Trump.
@@ -552,40 +563,6 @@
                 }, 0)
         }());
 
-        (function () {
-            const second = 1000,
-                minute = second * 60,
-                hour = minute * 60,
-                day = hour * 24;
-
-            //I'm adding this section so I don't have to keep updating this pen every year :-)
-            //remove this if you don't need it
-            let today = new Date(),
-                dd = String(today.getDate()).padStart(2, "0"),
-                mm = String(today.getMonth() + 1).padStart(2, "0"),
-                yyyy = today.getFullYear(),
-                nextYear = yyyy + 1,
-                dayMonth = "04/12/",
-                birthday = dayMonth + yyyy;
-
-            today = mm + "/" + dd + "/" + yyyy;
-            if (today > birthday) {
-                birthday = dayMonth + nextYear;
-            }
-            //end
-
-            const countDown = new Date(birthday).getTime(),
-                x = setInterval(function () {
-
-                    const now = new Date().getTime(),
-                        distance = countDown - now;
-
-                    document.getElementById("days2").innerText = Math.floor(distance / (day)),
-                        document.getElementById("hours2").innerText = Math.floor((distance % (day)) / (hour)),
-                        document.getElementById("minutes2").innerText = Math.floor((distance % (hour)) / (minute)),
-                        document.getElementById("seconds2").innerText = Math.floor((distance % (minute)) / second);
-                }, 0)
-        }());
     </script>
 
 
