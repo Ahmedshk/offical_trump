@@ -637,9 +637,14 @@ blink {
 
 @media (max-width: 767px) {
 
+  .deals_head {
+    text-align: center;
+    padding: 20px 0;
+}
+
   .secure_images {
     background-color: #22262C;
-    padding: 0;
+    padding: 2px;
   }
 
   .payment_card_details{
